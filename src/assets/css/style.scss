@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    .parnets-box{
+        padding: 20px;
+        border: 1px solid #ddd;
+        margin-top: 20px;
+    }
+    input{
+        width: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+    .bt-wrap{
+        margin-top: 10px;
+        button{
+            padding: 5px 25px;
+        }
+    }
+}
+.flex-box{
+    display: flex;
+    margin: 0 -20px;
+}
+.flex-item{
+    width: 50%;
+    padding: 20px;
+    > div{
+        padding: 20px;
+        border: 1px solid #ddd;
+    }
+}
